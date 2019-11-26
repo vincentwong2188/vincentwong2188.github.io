@@ -8,13 +8,16 @@ body{
 }
 
 .header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /*height: 100%;*/
-    padding: 3rem 3rem;
     background-image: url('Media/1.jpg');
     background-size: 100% 100%;
+
+}
+
+.header > .header-text{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 3rem 3rem;
 
 }
 
