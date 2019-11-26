@@ -35,11 +35,11 @@ h1, h2{
 }
 
 h1{
-    font-size: 3.5rem;
+    font-size: 2rem;
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 1rem;
     color: #aaa;
 }
 
@@ -48,29 +48,3 @@ h2{
     border-right: 0.2rem solid #777;
 }
 
-@media(min-width: 1200px){
-    h1{
-        font-size: 5rem;
-    }
-}
-
-@media(max-width: 800px){
-    .container{
-        padding: 0 1rem;
-    }
-
-    h1{
-        font-size: 3rem;
-    }
-}
-
-@media(max-width: 500px){
-    h1{
-        font-size: 2.5rem;
-
-    }
-    h2{
-        font-size: 1.5rem;
-    }
-
-}
