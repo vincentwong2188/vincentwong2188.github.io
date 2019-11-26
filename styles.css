@@ -1,0 +1,9 @@
+#app {
+    position: relative;
+    border-right: 0.08em solid rgba(255, 255, 255, 0);
+    top: 0;
+    bottom: 12px;
+    right: -5px;
+    width: 4px;
+    content: '';
+    background: #fff; }
