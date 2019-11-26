@@ -16,6 +16,13 @@ body{
 
 }
 
+.information{
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 3rem;
+
+}
+
 h1, h2{
     font-weight: 200;
     margin: 0.4rem;
