@@ -4,8 +4,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     /*height: 100vh;*/
-    /*color: #ccc;*/
-    color: black;
+    color: grey;
     overflow: hidden;
 }
 
@@ -22,11 +21,15 @@ body{
     padding: 3rem 3rem;
 
 }
+.name{
+    color: black;
+}
 
 .information{
     flex-direction: column;
     justify-content: center;
     padding: 3rem 3rem;
+    color: slategrey;
 
 }
 
@@ -41,14 +44,12 @@ h1{
 
 h2{
     font-size: 1rem;
-    /*color: #aaa;*/
-    color: black;
+    color: grey;
 }
 
 /* Cursor */
 .txt-type > .txt{
-    /*border-right: 0.2rem solid #777;*/
-    border-right: 0.2rem solid black;
+    border-right: 0.2rem solid grey;
 
 }
 
