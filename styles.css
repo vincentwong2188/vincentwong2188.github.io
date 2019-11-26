@@ -1,7 +1,8 @@
-#app {
-    color: green;
-}
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
 
-#test{
-    color: red;
+body{
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    color: #ccc;
+    overflow: hidden;
 }
