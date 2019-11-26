@@ -31,7 +31,29 @@ TypeWriter.prototype.type = function(){ // we use a prototype
     this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`
 
 
-    setTimeout(() => this.type(), 500); // each time a character is being typed in/ deleted, this is still running. we want to run it at a certain pace
+    // Type Speed (typing - slow, deleting - fast, get to end - pause): since this is dynamic, we use let
+    let typeSpeed = 300;
+
+    if this.isDeleting){
+        typeSpeed /= 2;
+    }
+
+    // check to see if the word is complete. if it matches, we move on to the next word
+
+    if (!this.isDeleting && this.txt === fullTxt){
+        typeSpeed = this.wait; // we want it to pause at end - set it to wait value
+        // set delete to true
+        this.isDeleting = true;
+    } else if (this.isDeleting && this.txt === ''){ // when it is backspacing and has backspaced the full word, we want to switch words
+        this.isDeleting = false;
+        // Move to next word
+        this.wordIndex++;
+        // Pause before start typing
+        typeSpeed = 500;
+    }
+
+
+    setTimeout(() => this.type(), typeSpeed); // each time a character is being typed in/ deleted, this is still running. we want to run it at a certain pace
 
 }
 
