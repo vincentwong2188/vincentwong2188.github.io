@@ -12,13 +12,8 @@ body{
     flex-direction: column;
     justify-content: center;
     /*height: 100%;*/
-    padding: 0 3rem;
+    padding: 10 3rem;
 
-    overflow: hidden;
-    position: fixed;
-    z-index: 5;
-    top: 0;
-    width: 100%;
 
 }
 
