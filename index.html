@@ -11,22 +11,8 @@
     <h1> HELLO! My name is Vincent. I love to (version 2) </h1>
     <div id="app"></div>
 
-    <script>
-        var app = document.getElementById('app');
+    <script src="scripts.js"></script>
+    <script src="core.js"></script>
 
-        var typewriter = new Typewriter(app, {
-            loop: true
-        });
-
-        typewriter.typeString('Hello World!')
-            .pauseFor(2500)
-            .deleteAll()
-            .typeString('Strings can be removed')
-            .pauseFor(2500)
-            .deleteChars(7)
-            .typeString('<strong>altered!</strong>')
-            .pauseFor(2500)
-            .start();
-    </script>
 </body>
 </html>
