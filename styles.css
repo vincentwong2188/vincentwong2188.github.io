@@ -26,10 +26,12 @@ body{
 }
 
 .information{
+    font-weight: 200;
     flex-direction: column;
     justify-content: center;
     padding: 3rem 3rem;
-    color: slategrey;
+    text-align: justify;
+
 
 }
 
