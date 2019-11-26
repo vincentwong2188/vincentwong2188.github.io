@@ -32,7 +32,6 @@ body{
 h1, h2{
     font-weight: 200;
     margin: 0.4rem;
-    color: black;
 }
 
 h1{
@@ -41,7 +40,7 @@ h1{
 
 h2{
     font-size: 1rem;
-    color: #aaa;
+    color: black;
 }
 
 /* Cursor */
