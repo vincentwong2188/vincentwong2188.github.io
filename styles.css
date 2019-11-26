@@ -14,7 +14,7 @@ body{
     /*height: 100%;*/
     padding: 3rem 3rem;
     background-image: url('Media/1.jpg');
-
+    background-size: 100% 100%;
 
 }
 
