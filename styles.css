@@ -9,7 +9,7 @@ body{
 }
 
 .header{
-    background-image: url('Media/1.jpg');
+    /*background-image: url('Media/1.jpg');*/
     background-size: 100% 100%;
 
 }
