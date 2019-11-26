@@ -32,7 +32,7 @@ TypeWriter.prototype.type = function(){ // we use a prototype
 
 
     // Initial Type Speed (typing - slow, deleting - fast, get to end - pause): since this is dynamic, we use let
-    let typeSpeed = 300;
+    let typeSpeed = 150;
 
     if (this.isDeleting){
         typeSpeed /= 2;
