@@ -5,11 +5,11 @@ var typewriter = new Typewriter(app, {
 });
 
 typewriter.typeString('Hello World!')
-    .pauseFor(2500)
+    .pauseFor(250)
     .deleteAll()
     .typeString('Strings can be removed')
-    .pauseFor(2500)
+    .pauseFor(250)
     .deleteChars(7)
     .typeString('<strong>altered!</strong>')
-    .pauseFor(2500)
+    .pauseFor(250)
     .start();
