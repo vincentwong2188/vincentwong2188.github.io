@@ -28,7 +28,7 @@ TypeWriter.prototype.type = function(){ // we use a prototype
     }
 
     // Insert txt into element
-    this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`
+    this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
 
 
     // Type Speed (typing - slow, deleting - fast, get to end - pause): since this is dynamic, we use let
