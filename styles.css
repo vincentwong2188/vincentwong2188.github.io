@@ -26,11 +26,10 @@ body{
 }
 
 .information{
-    font-weight: 200;
+    font-weight: 100;
     flex-direction: column;
     justify-content: center;
     padding: 3rem 3rem;
-    text-align: justify;
 
 
 }
@@ -58,12 +57,13 @@ h2{
 /* Button Styles */
 
 .btn-group button {
-    background-color: #4CAF50; /* Green background */
+    background-color: white; /* Green background */
     border: 1px solid green; /* Green border */
-    color: white; /* White text */
+    color: black; /* White text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     float: left; /* Float the buttons side by side */
+    width: auto;
 }
 
 /* Clear floats (clearfix hack) */
@@ -79,7 +79,7 @@ h2{
 
 /* Add a background color on hover */
 .btn-group button:hover {
-    background-color: #3e8e41;
+    background-color: grey;
 }
 
 /* END Button Styles */
